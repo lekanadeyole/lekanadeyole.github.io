@@ -67,7 +67,7 @@ li
 	list-style: none;
 	display: inline-block;
 	padding: 5px 10px;
-	font-family: "orator std";	
+	font-family: "orator std" 'Open Sans Condensed';	
 }
 
 p
@@ -136,7 +136,7 @@ p:hover
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	font-family: "orator std";
+	font-family: "orator std" 'Open Sans Condensed';
 	font-size: 2em;
 }
 
