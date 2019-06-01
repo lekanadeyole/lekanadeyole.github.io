@@ -1,0 +1,200 @@
+html
+{
+	scroll-behavior: smooth;
+}
+
+body
+{
+	background-image: url(bg.jpg);
+	background-size: cover;
+}
+
+header
+{
+	text-align: right;
+	padding: 5px 5px;
+}
+
+
+
+h4
+{
+	text-align:center;
+	color: #ff9063;
+	font-family: "Gotham Xlight";
+	font-size: 5rem;
+	transition: all 1s;
+	font-weight: lighter;
+}
+
+h4:hover
+{
+	transform: translateX(70px);
+}
+
+h6
+{
+	text-align:center;
+	color: #ff9063;
+	font-family: "Gotham Xlight";
+	font-size: 2.5rem;
+	transition: all 1s;
+	font-weight: lighter; 
+}
+
+
+h6:hover
+{
+	transform: scale(1.2);
+}
+
+
+#span1
+{
+	padding: 20px 20px;
+	color:black;
+	transition: all 1s;
+}
+
+
+#span1:hover
+{
+	transform: scale(3.3);
+}
+
+li
+{
+	list-style: none;
+	display: inline-block;
+	padding: 5px 10px;
+	font-family: "orator std";	
+}
+
+p
+{
+	color:#ff9063;
+	font-family:"Agency FB";
+	transition:all 2s;
+}
+
+p:hover
+
+{
+	transform: 
+}
+
+.navbar
+
+{
+	padding: 5px 5px;
+}
+
+.navlinks
+{
+ 	color:#ff9063;
+ 	transition: all 0.4s ;  
+
+}
+
+
+.navlinks:hover
+
+{
+	/*color: #813d82;*/
+	transform: scale(1.2);
+
+}
+
+.button
+{
+	background-color: #ff9063; 
+	padding: 20px 20px;
+	border-radius: 5px;
+}
+
+.inputbox
+{
+	border-radius: 3px;
+	transition: all 0.5s;
+
+}
+
+	
+.inputbox:hover
+{
+
+	transform: rotateZ(5deg);
+} 
+
+.inputbox:focus
+{
+	border: solid 3px #ff9063;
+}
+
+.category
+{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	font-family: "orator std";
+	font-size: 2em;
+}
+
+.span
+{
+	
+}
+
+
+#box1
+{
+	background-image: url(lotachi.png);
+	background-size: cover;
+	height: 300px;
+	width: 300px;
+	padding: 20px 20px;
+	margin: 20px 20px;
+}
+
+#box2
+{
+	background-image: url(IMG_20181226_083207.png);
+	background-size: cover;
+	height: 600px;
+	width: 400px;
+	padding: 20px 20px;
+	margin: 20px 20px;
+}
+
+#box3
+{
+	background-image: url(black.png);
+	background-size: cover;
+	height: 300px;
+	width: 300px;
+	padding: 20px 20px;
+	margin: 20px 20px;
+}
+
+
+img{ height: 300px;
+width:300px; }
+
+
+
+
+/*.box {
+  width: 150px;
+  height: 150px;
+  background: red;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  transition:  all 1s, background-color 3s ease-out;
+}
+
+
+.box:hover{
+	transform: scale(1.3);
+	background-color: green;
+}*/
